@@ -1,4 +1,4 @@
-# rest-api-naming-convention-and-best-practices
+# REST API proper naming conventions and best practices
 Guide for writing proper REST API endpoints using proper naming conventions and best practices
 
 # Use plurals for resource collections
@@ -56,3 +56,16 @@ DELETE /users/{id}
 /users?name=XYZ&sort=registrationDate&page=1&pageSize=5
 ```
 
+# What is REST API
+ - Is a stateless tranfer protocol that uses HTTP method to interact with the server.
+##### REST API Analogy
+ - 
+# REST API URL Structure
+
+### Note: There are 3 ways you can get, post, put, delete a data in REST API 
+  1. Path Variable
+  2. Query Parameter
+  3. Request Body
+
+#### What is Path Variable
+ - Path variable is the dynamic data that your API URI 
