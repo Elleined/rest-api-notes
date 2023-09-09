@@ -24,7 +24,7 @@
  - Path variable is the dynamic data in your API endpoint and commonly use to determine who is interacting with the server.
  - Example: /users/{id} the /{id} is the path variable 
 ###### What is Query Parameter 
- - Query parameter is the data needed to properly call the endpoint. It can be required or optional and commonly used in small data and for filtering, sorting and pagination of the resource.
+ - Query parameter is the data needed to properly call the endpoint. It can be required or optional and commonly used for passing small amount of data and can also be used for filtering, sorting and pagination of the resource.
 ###### What is Request Body
  - Request Body is used to pass a big set of data and commonly represented as JSON, XML, and CSV.
 
