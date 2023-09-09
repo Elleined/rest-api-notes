@@ -1,5 +1,5 @@
-# What is REST API
- - Is a stateless tranfer protocol that uses HTTP method to interact with the server. meaning the client should pass all the required data needed to call the server via api endpoint without the client or the backend maintain some state to interact to each other example using HTTPSession or cookies.
+# What is REST API (Representational State Transfer Application Programming Interface)
+ - Is architectural style and the standard way to client and server to communicate in web services and also REST API is a stateless tranfer protocol that uses HTTP method to interact with the server. meaning the client should pass all the required data needed to call the server via api endpoint without the client or the backend maintain some state to interact to each other example using HTTPSession or cookies.
 
 ##### REST API Analogy
  - Lets take a restaurant workflow as an example. Imagine there are 3 entity present in our analogy the Customer(Front end), Waiter(REST API), and Chef(Backend)
