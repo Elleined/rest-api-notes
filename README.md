@@ -41,9 +41,18 @@ DELETE /users/{id}
 /users/ ❎
 ```
 
-# Use kebab case
+# Use kebab case and lower-casing
  - To increase readability and scalability
 ```
 /users/{id}/accounts/device-management ✅ // easy to read
 /users/{id}/accounts/deviceManagement ❎ // hard to read
 ```
+
+# Dont use file extensions in URI
+ - Because using file extension in URI is just confusing as hell and just adds in URI length. File extenstion should be in header Content-Type to specify what data that your api consumes and produce.
+
+# Always enable filtering, sorting, and pagination in your resource collections
+```
+/users?name=XYZ&sort=registrationDate&page=1&pageSize=5
+```
+
