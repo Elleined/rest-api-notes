@@ -57,12 +57,12 @@
   ##### PATCH: Update a specific data in resource
   ##### DELETE: Delete a resource
 ```
-POST /users with request body
-GET /users
-GET /users/{id}
-PUT /users/{id} with request body
-PATCH /users/{id} with request params
-DELETE /users/{id}
+POST /users with request body          // returns the saved resource
+GET /users                             // returns list/array of the resource
+GET /users/{id}                        // returns the specific resource via id
+PUT /users/{id} with request body      // returns the updated resources
+PATCH /users/{id} with query parameter // returns the updated resource also
+DELETE /users/{id}                     // returns no content http status
 ```
 
 ##### Do not use trailing forward slashes
