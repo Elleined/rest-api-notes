@@ -1,5 +1,5 @@
 # What is REST API
- - Is a stateless tranfer protocol that uses HTTP method to interact with the server. meaning the client should pass all the required data needed to call the server without the client or the backend maintain some state to interact to each other.
+ - Is a stateless tranfer protocol that uses HTTP method to interact with the server. meaning the client should pass all the required data needed to call the server via api endpoint without the client or the backend maintain some state to interact to each other example using HTTPSession or cookies.
 
 ##### REST API Analogy
  - Lets take a restaurant workflow as an example. Imagine there are 3 entity present in our analogy the Customer(Front end), Waiter(REST API), and Chef(Backend)
@@ -12,10 +12,10 @@
 - Client error response (400 - 499)
 - Server error response (500 - 599)
 
-###### REST API URL Structure
+##### REST API URL Structure
 ![image](https://github.com/Elleined/rest-api-naming-convention-and-best-practices/assets/111877930/8982e496-d3e3-4b2d-a9d9-023b2ab28dcf)
 
-###### Note: There are 3 ways you can get, post, put, delete a data in REST API 
+##### Note: There are 3 ways you can get, post, put, delete a data in REST API 
   1. Path Variable
   2. Query Parameter
   3. Request Body
@@ -25,6 +25,7 @@
  - Example: /users/{id} the /{id} is the path variable 
 ###### What is Query Parameter 
  - Query parameter is the data needed to properly call the endpoint. It can be required or optional and commonly used for passing small amount of data and can also be used for filtering, sorting and pagination of the resource.
+ - Example: /users?name=XYZ&sort=birthDate // All text that comes after the ? is the query parameter just like in calling a method in your programming languange you need to pass all the argument needed to properly call the method in this case is the api endpoint, and the symbol & you can just think of it as a separator or the comma in your method parameter and in this case is the api query parameter.
 ###### What is Request Body
  - Request Body is used to pass a big set of data and commonly represented as JSON, XML, and CSV.
 
