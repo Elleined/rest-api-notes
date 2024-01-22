@@ -89,7 +89,7 @@ DELETE /users/{id}                     // returns no content http status
 
 # What is HATEOUS
 - It is a contraint in building RESTful services architecture where states that when you send json response payload in client it should also include related actions making your api self-documenting and the client can explore your api with minimal knowledge in your project.
-- Commonly used for retrieving one-to-many or many-to-many resources in your database because instead of returning a whole bunch of data in one call you provide only the url for that resources. 
+- Commonly used for retrieving one-to-many, many-to-many or related entity resources in your database because instead of returning a whole bunch of data in one call you provide only the url for that resources for the client to fetch.
 
 ## HATEOUS provides
 - Freedom to change api only in server side without touching client side api call making both project loosely coupled to each other.
