@@ -141,3 +141,15 @@ dto.add(linkTo(methodOn(controllerClass).controllerClassMethod()).withSelfRel("r
 // With related resource reference
 dto.add(linkTo(methodOn(controllerClass).controllerClassMethod()).withRel("relation-name"))
 ```
+
+
+# API Building Steps
+1. Model
+2. Repository
+3. DTO
+4. Mapper
+5. Service
+6. Exception
+7. Controller
+8. Populator
+9. Related links
