@@ -113,6 +113,8 @@ DELETE /users/{id}                     // returns no content http status
 - Only use controller class and methods in WebMvcLinkBuilder static method parameters.
 - When you use same related relationship name in different links it will be return as an array under the same name.
 - When you supply null in controller class method parameter annotated with @RequestParam and @PathVariable it will produce templated url.
+- Final classes return types of controller method should be wrapped around ResponseEntity<Type> if not will throw an exception.
+
 ```
 http://localhost:<port>/resource/{pathVariable}/accounts?key1={value1}&key2={value2}
 ```
