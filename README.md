@@ -104,9 +104,13 @@ DELETE /users/{id}                     // returns no content http status
 # WebMvcLinkBuilder methods
 - **linkTo()**: Add related link in representation model.
 - **methodOn()**: add related method in linkTo
+- **afford()**: add additional related link.
+
+# Link methods
 - **withSelfRel()**: add the self relationship name.
 - **withRel()**: add related relationship name.
-- **afford()**: add additional related link.
+- **withTitle()**: add title of the related url
+- **withHref()**: manually contruct the url link of related resource.
 
 # Notes:
 - Typically you extend the RepresentationModel class in your DTO classes.
