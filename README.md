@@ -112,7 +112,7 @@ DELETE /users/{id}                     // returns no content http status
 - Typically you extend the RepresentationModel class in your DTO classes.
 - Only use controller class and methods in WebMvcLinkBuilder static method parameters.
 - When you use same related relationship name in different links it will be return as an array under the same name.
-- When you supply null in controller class method parameter annotated with @RequestParam it will produce templated url.
+- When you supply null in controller class method parameter annotated with @RequestParam and @PathVariable it will produce templated url.
 ```
 http://localhost:<port>/resource?key1={key1Value}&key2={key2Value}
 ```
