@@ -114,7 +114,7 @@ DELETE /users/{id}                     // returns no content http status
 - When you use same related relationship name in different links it will be return as an array under the same name.
 - When you supply null in controller class method parameter annotated with @RequestParam and @PathVariable it will produce templated url.
 ```
-http://localhost:<port>/resource?key1={key1Value}&key2={key2Value}
+http://localhost:<port>/resource/{pathVariable}/accounts?key1={value1}&key2={value2}
 ```
 
 # What is Affordance
