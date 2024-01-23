@@ -109,7 +109,8 @@ DELETE /users/{id}                     // returns no content http status
 # Link methods
 - **withSelfRel()**: add the self relationship name.
 - **withRel()**: add related relationship name.
-- **withTitle()**: add title of the related url
+- **withTitle()**: add title of the related url.
+- **withType**: add the httpmethod of related url.
 - **withHref()**: manually contruct the url link of related resource.
 
 # Notes:
