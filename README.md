@@ -104,14 +104,14 @@ DELETE /users/{id}                     // returns no content http status
 # WebMvcLinkBuilder methods
 - **linkTo()**: Add related link in representation model.
 - **methodOn()**: add related method in linkTo
-- **withSelfRel()**: add the self relationship.
+- **withSelfRel()**: add the self relationship name.
 - **withRel()**: add related relationship name.
 - **afford()**: add additional related link.
 
 #### Notes:
 - Typically you extend the RepresentationModel class in your DTO classes.
 - Only use controller class and methods in WebMvcLinkBuilder static method parameters.
-- When you use same related relationship in different links it will be return as an array under the same name.
+- When you use same related relationship name in different links it will be return as an array under the same name.
 
 # What is Affordance
 - Linking additional related methods in current link like insert, retrieved, update, delete, and etc... in self or related resouce entity
