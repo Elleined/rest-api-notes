@@ -106,6 +106,10 @@ DELETE /users/{id}                     // returns no content http status
 - **methodOn()**: add related method in linkTo
 - **afford()**: add additional related link.
 
+# Representation Model
+- **add()**: add link to dto class.
+- **addIf()**: add supplied link if guard is true.
+
 # Link methods
 - **withSelfRel()**: add the self relationship name.
 - **withRel()**: add related relationship name.
