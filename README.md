@@ -100,3 +100,32 @@ DELETE /users/{id}                     // returns no content http status
 # What is HyperMedia
 - Just a link related to your API.
 - Serve as documentation for programmer
+
+# WebMvcLinkBuilder methods
+- **linkTo()**: Add related link in representation model.
+- **methodOn()**: add related method in linkTo
+- **withSelfRel()**: add the self relationship.
+- **withRel()**: add related relationship name.
+- **afford()**: add additional related link.
+
+#### Notes:
+- Typically you extend the RepresentationModel class in your DTO classes.
+- Only use controller class and methods in WebMvcLinkBuilder static method parameters.
+- When you use same related relationship in different links it will be return as an array under the same name.
+
+# What is Affordance
+- Linking additional related methods in current link like insert, retrieved, update, delete, and etc... in self or related resouce entity
+```
+dto.add(linkTo(methodOn(controllerClass).controllerClassMethod())
+ .withSelfRel("relation-name")
+ .andAffordance(afford(methonOn(controllerClass).otherControllerClassMethod()));
+```
+
+# Basic usage of spring hateous
+```
+// With self reference
+dto.add(linkTo(methodOn(controllerClass).controllerClassMethod()).withSelfRel("relation-name"))
+
+// With related resource reference
+dto.add(linkTo(methodOn(controllerClass).controllerClassMethod()).withRel("relation-name"))
+```
