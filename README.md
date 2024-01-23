@@ -118,7 +118,7 @@ DELETE /users/{id}                     // returns no content http status
 ```
 dto.add(linkTo(methodOn(controllerClass).controllerClassMethod())
  .withSelfRel("relation-name")
- .andAffordance(afford(methonOn(controllerClass).otherControllerClassMethod()));
+ .andAffordance(afford(methonOn(controllerClass).otherControllerClassRelatedMethod()));
 ```
 
 # Basic usage of spring hateous
