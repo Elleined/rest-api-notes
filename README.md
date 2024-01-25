@@ -161,3 +161,5 @@ dto.add(linkTo(methodOn(controllerClass).controllerClassMethod())
  .withType("httpAPICallMethod")
 )
 ```
+
+#### [hateous project code sample](https://howtodoinjava.com/spring/spring-hateoas-tutorial/)
