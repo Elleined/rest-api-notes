@@ -129,6 +129,12 @@ DELETE /users/{id}                     // returns no content http status
 - **withMedia**: add the preferred media type payload of related resource. Example "application/json"
 - **withHref()**: manually contruct the url link of related resource.
 
+# Hateous links needed in DTO
+1. Self links
+2. Related button links
+3. Many to one relationships links
+4. One to many relationships links
+
 # Notes:
 - Typically you extend the RepresentationModel class in your DTO classes.
 - Only use controller class and methods in WebMvcLinkBuilder static method parameters.
