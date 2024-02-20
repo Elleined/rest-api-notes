@@ -30,6 +30,10 @@
 ###### What is Request Body
  - Request Body is used to pass a big set of data and commonly represented as JSON, XML, and CSV.
 
+###### HTTP headers
+
+- HTTP headers let the client and the server pass additional information with an HTTP request or response. An HTTP header consists of its case-insensitive name followed by a colon (:), then by its value. Whitespace before the value is ignored. [[more info about headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)]
+
 # REST API proper naming conventions and best practices
 - REST API notes and Guide for writing proper REST API endpoints using proper naming conventions and best practices
 
