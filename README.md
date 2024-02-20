@@ -15,10 +15,11 @@
 ##### REST API URL Structure
 ![image](https://github.com/Elleined/rest-api-naming-convention-and-best-practices/assets/111877930/8982e496-d3e3-4b2d-a9d9-023b2ab28dcf)
 
-##### Note: There are 3 ways you can get, post, put, delete a data in REST API 
+##### Note: There are 4 ways you can get, post, put, delete a data in REST API 
   1. Path Variable
   2. Query Parameter
   3. Request Body
+  4. Http Headers
 
 ###### What is Path Variable?
  - Path variable is the dynamic data in your API endpoint and commonly use to determine who is interacting with the server.
