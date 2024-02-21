@@ -15,10 +15,11 @@
 ##### REST API URL Structure
 ![image](https://github.com/Elleined/rest-api-naming-convention-and-best-practices/assets/111877930/8982e496-d3e3-4b2d-a9d9-023b2ab28dcf)
 
-##### Note: There are 3 ways you can get, post, put, delete a data in REST API 
+##### Note: There are 4 ways you can get, post, put, delete a data in REST API 
   1. Path Variable
   2. Query Parameter
   3. Request Body
+  4. Http Headers
 
 ###### What is Path Variable?
  - Path variable is the dynamic data in your API endpoint and commonly use to determine who is interacting with the server.
@@ -28,6 +29,11 @@
  - Example: /users?name=XYZ&sort=birthDate // All text that comes after the ? is the query parameter just like in calling a method in your programming languange you need to pass all the argument needed to properly call the method in this case is the api endpoint, and the symbol & you can just think of it as a separator or the comma in your method parameter and in this case is the api query parameter.
 ###### What is Request Body
  - Request Body is used to pass a big set of data and commonly represented as JSON, XML, and CSV.
+
+###### HTTP headers
+
+- HTTP headers let the client and the server pass additional information with an HTTP request or response. An HTTP header consists of its case-insensitive name followed by a colon (:), then by its value. Whitespace before the value is ignored. [[more info about headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)]
+- Commonly used for api key authorization for better security when transporting data.
 
 # REST API proper naming conventions and best practices
 - REST API notes and Guide for writing proper REST API endpoints using proper naming conventions and best practices
