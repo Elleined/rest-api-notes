@@ -97,12 +97,13 @@ DELETE /users/{id}                     // returns no content http status
 1. Model
 2. Repository
 3. DTO
-4. Mapper
-5. Service
-6. Exception
-7. Controller
-8. Populator
-9. DTO HATEOUS Assembler
+4. Request
+5. Mapper
+6. Service
+7. Exception
+8. Controller
+9. Populator
+10. DTO HATEOUS Assembler
 
 # What is HATEOUS
 - Hypermedia as the Engine of Application State.
