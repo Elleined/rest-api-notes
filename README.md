@@ -103,7 +103,9 @@ DELETE /users/{id}                     // returns no content http status
 7. Exception
 8. Controller
 9. Populator
-10. DTO HATEOUS Assembler
+10. Scheduler
+11. Unit Testing
+12. DTO HATEOUS Assembler
 
 # What is HATEOUS
 - Hypermedia as the Engine of Application State.
