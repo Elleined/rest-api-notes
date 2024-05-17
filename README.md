@@ -95,17 +95,23 @@ DELETE /users/{id}                     // returns no content http status
 
 # API Building Steps
 1. Model
-2. Repository
-3. DTO
-4. Request
-5. Mapper
-6. Service
-7. Exception
-8. Controller
-9. Populator
-10. Scheduler
-11. Unit Testing
-12. DTO HATEOUS Assembler
+   1.1 Bidirectional Relationships
+   1.2 PrimaryKeyIdentity class
+   1.3 Class inheritance heirarchy with Lombok annotation
+   1.4 Proper Spring Data JPA annotation attributes
+   1.5 Proper Spring Data JPA annotation attributes values
+   1.6 Create Constructor with @Builder annotation and put parameters in separate lines
+3. Repository
+4. DTO
+5. Request
+6. Mapper
+7. Service
+8. Exception
+9. Controller
+10. Populator
+11. Scheduler
+12. Unit Testing
+13. DTO HATEOUS Assembler
 
 # What is HATEOUS
 - Hypermedia as the Engine of Application State.
