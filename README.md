@@ -101,17 +101,19 @@ DELETE /users/{id}                     // returns no content http status
    1.4 Proper Spring Data JPA annotation attributes
    1.5 Proper Spring Data JPA annotation attributes values
    1.6 Create Constructor with @Builder annotation and put parameters in separate lines
+   1.7 Use @SuperBuilder
 3. Repository
 4. DTO
-5. Request
-6. Mapper
-7. Service
-8. Exception
-9. Controller
-10. Populator
-11. Scheduler
-12. Unit Testing
-13. DTO HATEOUS Assembler
+   1.1 Use @SuperBuilder
+6. Request
+7. Mapper
+8. Service
+9. Exception
+10. Controller
+11. Populator
+12. Scheduler
+13. Unit Testing
+14. DTO HATEOUS Assembler
 
 # What is HATEOUS
 - Hypermedia as the Engine of Application State.
