@@ -95,13 +95,14 @@ DELETE /users/{id}                     // returns no content http status
 
 # API Building Steps
 1. Model
-   1.1 Bidirectional Relationships
-   1.2 PrimaryKeyIdentity class
-   1.3 Class inheritance heirarchy with Lombok annotation
-   1.4 Proper Spring Data JPA annotation attributes
-   1.5 Proper Spring Data JPA annotation attributes values
-   1.6 Create Constructor with @Builder annotation and put parameters in separate lines
-   1.7 Use @SuperBuilder
+   - Bidirectional Relationships  
+   - PrimaryKeyIdentity class  
+   - Class inheritance heirarchy with Lombok annotation
+   - Proper Spring Data JPA annotation attributes
+   - Proper Spring Data JPA annotation attributes values
+   - Create Constructor with @Builder annotation and put parameters in separate lines
+   - Use @SuperBuilder
+     
 3. Repository
 4. DTO
    1.1 Use @SuperBuilder
@@ -114,6 +115,10 @@ DELETE /users/{id}                     // returns no content http status
 12. Scheduler
 13. Unit Testing
 14. DTO HATEOUS Assembler
+15. Postman Endpoints
+    - Create a named host-ip-address, host-port, api-context-path, and base-url, where base-url is {{host-ip-address}}:{{host-port}}/{{api-context-path}}.
+    - Create separate environment for your git branching commonly is main and dev.
+    - Usage of random api the {{$random}}.
 
 # What is HATEOUS
 - Hypermedia as the Engine of Application State.
