@@ -119,6 +119,7 @@ DELETE /users/{id}                     // returns no content http status
     - Create a named host-ip-address, host-port, api-context-path, and base-url, where base-url is {{host-ip-address}}:{{host-port}}/{{api-context-path}}.
     - Create separate environment for your git branching commonly is main and dev.
     - Usage of random api the {{$random}}.
+16. Caching with redis
 
 # What is HATEOUS
 - Hypermedia as the Engine of Application State.
