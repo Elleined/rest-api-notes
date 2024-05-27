@@ -122,6 +122,7 @@ DELETE /users/{id}                     // returns no content http status
 16. Caching with redis
 17. Adding paging and sorting
 18. Unit Testing of controller layer
+19. Create jenkins workflow
 
 # What is HATEOUS
 - Hypermedia as the Engine of Application State.
