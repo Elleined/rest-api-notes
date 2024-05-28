@@ -104,7 +104,8 @@ DELETE /users/{id}                     // returns no content http status
    - Use @SuperBuilder
      
 3. Repository
-4. DTO
+   - Pageable JPQL Query of collections model
+5. DTO
    1.1 Use @SuperBuilder
 6. Request
 7. Mapper
