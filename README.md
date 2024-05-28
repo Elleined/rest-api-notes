@@ -97,33 +97,36 @@ DELETE /users/{id}                     // returns no content http status
 1. Model
    - Bidirectional Relationships  
    - PrimaryKeyIdentity class  
-   - Class inheritance heirarchy with Lombok annotation
-   - Proper Spring Data JPA annotation attributes
-   - Proper Spring Data JPA annotation attributes values
-   - Create Constructor with @Builder annotation and put parameters in separate lines
+   - Proper Spring Data JPA annotation attributes and values
    - Use @SuperBuilder
      
 3. Repository
-   - Pageable JPQL Query of collections model
+   - Pageable JPQL Query of associated collections in the model
 5. DTO
-   1.1 Use @SuperBuilder
+   - Use @SuperBuilder
+   - Fields should be strictly identical in model class
+   
 6. Request
 7. Mapper
-8. Service
-9. Exception
-10. Controller
-11. Populator
-12. Scheduler
-13. Unit Testing of service layer
-14. DTO HATEOUS Assembler
-15. Postman Endpoints
+   - Include all the fields inside the @Mappings
+   - Values must be taken from parameter not in a single object.
+    
+9. Service
+   - Adding paging and sorting in all collections fetch methods
+   
+10. Exception
+11. Controller
+12. Populator
+13. Scheduler
+14. Unit Testing
+    - [Unit testing in order](https://github.com/Elleined/junit-mockito-notes?tab=readme-ov-file#testing-in-chronological-order)
+16. DTO HATEOUS Assembler
+17. Postman Endpoints
     - Create a named host-ip-address, host-port, api-context-path, and base-url, where base-url is {{host-ip-address}}:{{host-port}}/{{api-context-path}}.
     - Create separate environment for your git branching commonly is main and dev.
     - Usage of random api the {{$random}}.
-16. Caching with redis
-17. Adding paging and sorting
-18. Unit Testing of controller layer
-19. Create jenkins workflow
+18. Caching with redis
+20. Create jenkins workflow
 
 # What is HATEOUS
 - Hypermedia as the Engine of Application State.
