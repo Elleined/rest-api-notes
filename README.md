@@ -105,6 +105,7 @@ DELETE /users/{id}                     // returns no content http status
 5. DTO
    - Use @SuperBuilder
    - Fields should be strictly identical in model class
+   - Onlt the model that owns the @ManyToOne will have the references and the entity owns the OneToMany will not have reference to the list.
    
 6. Request
 7. Mapper
