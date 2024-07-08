@@ -114,6 +114,18 @@ MAJOR.MINOR.PATCH
 1.1.3
 ```
 
+## Implement API Versioning
+- There are 4 types to implement api versioning but we gonna use the standard which is via URL Path versioning.
+```
+api/v1
+api/v2
+```
+### To basically implement it whenever you change in your api see the standard api versioning above before you change your api make sure that you created a new branch from main and your created branch will have the name of the api version.
+```
+api/v1.1.3
+api/v2.2.11
+```
+
 # API Building Steps
 1. Model
    - Bidirectional Relationships  
