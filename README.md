@@ -121,6 +121,8 @@ api/v1
 api/v2
 ```
 ### To basically implement it whenever you change in your api see the standard api versioning above before you change your api make sure that you created a new branch from main and your created branch will have the name of the api version.
+### If you are confused how you should use the proper api versioning i recommend for you to read first the FAQs in their website its very useful I promise.
+
 ```
 api/v1.1.3
 api/v2.2.11
