@@ -93,6 +93,27 @@ DELETE /users/{id}                     // returns no content http status
 /users?name=XYZ&sort=registrationDate&page=1&pageSize=5
 ```
 
+# API Versioning
+- API versioning is the practice of transparently managing changes to your API.
+- Change is a natural part of API development. Sometimes, developers have to update their API's code to fix security vulnerabilities, while other changes introduce new features or functionality. Some changes do not affect consumers at all, while others, which are known as “breaking changes,” lead to backward-compatibility issues, such as unexpected errors and data corruption. API versioning ensures that these changes are rolled out successfully in order to preserve consumer trust while keeping the API secure, bug-free, and highly performant - [Postman](https://www.postman.com/api-platform/api-versioning/#:~:text=API%20versioning%20is%20the%20process,natural%20part%20of%20API%20development.).
+
+## Standard for naming API Versions
+- [SemVer (Semantic Versioning)](http://semver.org/)
+
+### Major: For Whatever changes that causes breaking change.
+
+### Minor: For whenever you add a new features that does not cause breaking change.
+
+### Patch: For bug fixes and minor changes.
+
+```
+// Template
+MAJOR.MINOR.PATCH
+
+// Example
+1.1.3
+```
+
 # API Building Steps
 1. Model
    - Bidirectional Relationships  
