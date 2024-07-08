@@ -194,3 +194,5 @@ dto.add(linkTo(methodOn(controllerClass).controllerClassMethod())
 ```
 
 #### [hateous project code sample](https://howtodoinjava.com/spring/spring-hateoas-tutorial/)
+
+#### [Right way to build API](https://m.youtube.com/watch?v=CVBpYfPKGlE)
