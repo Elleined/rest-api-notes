@@ -151,10 +151,11 @@ api/v2.2.11
    - Adding paging and sorting in all collections fetch methods
    
 10. Exception
-11. Controller
-12. Populator
-13. Scheduler
-14. Unit Testing
+11. Populator
+12. Controller
+13. Validations
+14. Scheduler
+15. Unit Testing
     - [Unit testing in order](https://github.com/Elleined/junit-mockito-notes?tab=readme-ov-file#testing-in-chronological-order)
 16. DTO HATEOUS Assembler
 17. Postman Endpoints
