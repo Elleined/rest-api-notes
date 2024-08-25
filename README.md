@@ -146,11 +146,12 @@ api/v2.2.11
 7. Mapper
    - Include all the fields inside the @Mappings
    - Values must be taken from parameter not in a single object.
-    
-9. Service
+
+ 
+9. Exception
+10. Service
    - Adding paging and sorting in all collections fetch methods
    
-10. Exception
 11. Populator
 12. Controller
 13. Validations
